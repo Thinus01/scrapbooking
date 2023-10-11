@@ -1,0 +1,62 @@
+/* * {
+  border: solid gray 1px;
+} */
+
+body {
+  background: linear-gradient(
+    rgb(255, 255, 255), rgb(255, 255, 255)
+  );
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(192, 115, 0);
+}
+
+.navbar {
+  background-color: rgba(43, 43, 43, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 10px 10px 15px orangered;
+  overflow: hidden;
+  position: fixed !important;
+  width: 100%;
+}
+
+.JSHead,
+.CSSHead {
+  font-size: 250%;
+  width: fit-content;
+  border-radius: 16px;
+  padding: 0 1%;
+}
+
+.JSHead:hover,
+.CSSHead:hover {
+  font-weight: 900;
+  animation: wave 1s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0%);
+    box-shadow: 0 0 20px 10px orangered;
+  }
+
+  50% {
+    transform: translateX(5%);
+    box-shadow: 0 0 50px 10px orangered;
+  }
+
+  100% {
+    transform: translateX(0%);
+    box-shadow: 0 0 20px 10px orangered;
+  }
+}
+
+.space {
+  padding-top: 10%;
+}

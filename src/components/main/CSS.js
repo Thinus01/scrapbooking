@@ -1,5 +1,5 @@
 // Home to all CSS styling fun
 
 export function CSS() {
-    return <h1>CSS</h1>
+    return <h1>CSS styling concepts</h1>
 }
