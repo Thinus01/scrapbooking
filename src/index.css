@@ -1,0 +1,22 @@
+.CodingC {
+  border-radius: 16px;
+  background-color: rgb(218, 218, 218);
+}
+
+.CodeContainer {
+  margin-top: 3%;
+  padding: 1%;
+}
+
+.CodeContainer h1 {
+  padding-left: 5%;
+}
+
+.answer,
+.thinking,
+.solve {
+  background-color: white;
+  margin: 2%;
+  border-radius: 16px;
+  padding-left: 3%;
+}
