@@ -1,0 +1,32 @@
+.SocialIcons {
+  width: 50%;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  background-image:
+    conic-gradient(
+      from var(--border-angle),
+      #cfcfcf,
+      #afafaf,
+      #8a8a8a
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, rgb(255, 0, 0), rgb(255, 153, 0),rgb(251, 255, 0), rgb(0, 255, 34), rgb(0, 17, 255));
+  background-size:
+    calc(100% - (var(--border-size) * 2))
+    calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: bg-spin 10s linear infinite;
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
