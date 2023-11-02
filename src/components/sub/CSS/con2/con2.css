@@ -8,13 +8,13 @@
 }
 
 .OneSided:hover {
-  border: solid rgb(255, 0, 0) 3px;
-  border-radius: 32px;
-  background-image: linear-gradient(to right, rgb(204, 204, 204) 50%, rgb(167, 54, 54) 100%);
+  border: solid rgb(75, 234, 255) 3px;
+  border-radius: 16px;
+	background-image: linear-gradient(to right, rgb(204, 204, 204) 50%, rgb(58, 172, 187) 100%);
 }
 
 .OneSided:active {
-  border: solid rgb(75, 234, 255) 3px;
-  border-radius: 16px;
-	background-image: linear-gradient(to right, rgb(204, 204, 204) 25%, rgb(58, 172, 187) 60%);
+  border: solid rgb(255, 0, 0) 3px;
+  border-radius: 32px;
+  background-image: linear-gradient(to right, rgb(204, 204, 204) 25%, rgb(167, 54, 54) 60%);
 }
