@@ -26,6 +26,10 @@
 
 /* CSS */
 
+.CSSIntro {
+  text-align: center;
+}
+
 .CSSStyles {
   background-color: gray;
   padding: 1%;

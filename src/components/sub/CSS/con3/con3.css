@@ -1,0 +1,14 @@
+.Enlarge {
+  border: solid rgb(131, 131, 131) 3px;
+  border-radius: 16px;
+  transition: 0.3s;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 140, 255) 100%);
+}
+
+.Enlarge:hover {
+  border: solid rgb(75, 234, 255) 3px;
+	background-image: linear-gradient(to right, rgb(255, 255, 255) 10%, rgb(0, 140, 255) 50%);
+  transform: scale(1.2);
+}
